@@ -13,8 +13,8 @@
 }
 .btns{
  color: #FFFFFF;
-  border-radius: 34px;
-  font-weight: bold;
+  border-radius: 12px;
+  
   font-size:20px;
 }
 .ho{
@@ -38,7 +38,7 @@
 }
 .btn{
   background-color:#9A7197 ;
-  border-radius: 34px;
+  border-radius: 21px;
   height: 40px;
   width: 180px;
 }
@@ -52,6 +52,9 @@
   .img{
     height: 42px;
     width: 38px;
+  }
+  .mi{
+    display: none;
   }
   .ho{
     font-size: 70px;
@@ -112,6 +115,11 @@
   }
   .btn{
     margin: 10px;
+    height: 35px;
+    width: 140px;
+  }
+  .btns{
+    font-size: 19px;
   }
   .img{
     height: 42px;
@@ -125,18 +133,22 @@
   }
   .im{
     height: 350px;
-    width: 240px;
+    width: 290px;
     margin: 20px;
+  }
+  .mi{
+    display: none;
   }
 }
 
 @media(max-width:280px){
   .fu{
-    padding: 30px;
+    padding:20px;
   }
-  .btn{
-    margin: 10px;
+  .mi{
+    display: none;
   }
+  
   .img{
     height: 31px;
     width: 30px;
@@ -149,15 +161,15 @@
   }
   .im{
     height: 290px;
-    width: 170px;
-    margin: 20px;
+    width: 200px;
+    border: 20px;
   }
   .po{
     font-size: 20px;
   }
   .btn{
-    height: 33px;
-    width: 110px;
+    height: 29px;
+    width: 90px;
   }
   .btns{
     font-size: 13px;
@@ -454,17 +466,20 @@
   .fu{
     padding: 70px;
   }
+  .mi{
+    display: none;
+  }
 }
 
 @media(min-width:1024px){
   .ho{
-    font-size: 60px;
+    font-size: 84px;
   }
   .hi{
-    font-size: 60px;
+    font-size: 84px;
   }
   .po{
-    font-size: 30px;
+    font-size: 28px;
   }
   .btn{
     height: 50px;
@@ -480,6 +495,16 @@
     width: 250px;
   }
   .fu{
-    padding: 70px;
+    padding-left: 70px;
+  }
+  .br{
+    display: none;
+  }
+  .img{
+    height: 34px;
+    width: 36px;
+  }
+  .mi{
+    height: 560px;
   }
 }
