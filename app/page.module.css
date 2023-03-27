@@ -76,6 +76,9 @@
     margin: 30px;
     padding: 10px;
   }
+  .fu{
+    padding: 20px;
+  }
 }
 @media(min-width:548px){
   .ho{
@@ -452,7 +455,7 @@
   }
   .btn{
     height: 50px;
-    width: 280px;
+    width: 270px;
   }
   .btns{
     font-size: 30px;

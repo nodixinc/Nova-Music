@@ -27,7 +27,7 @@ export default function Home() {
       <h6 className={styles.po}>Once you realize you should enjoy the small things, life changes to being boring to extremely colorful.</h6>
       
       <Image className={styles.im} src={hd} alt='yo'/>
-      <section className='grid grid-cols-2 gap-2'>
+      <section className='grid grid-cols-2 gap-6'>
       <button className={styles.btn} >
       <Link className={styles.btns} href='#'>Join the hub</Link>
       </button> 
