@@ -32,10 +32,10 @@ export default function Home() {
       <Link className={styles.btns} href='#'>Join the hub</Link>
       </button> 
       <section className='grid grid-cols-2 gap-0 py-1 '>
-        <div className='w-11 h-11 shrink-0 grow-0 rounded-full bg-gray-300 py-2 items-center flex justify-center'>
+        <div className='w-11 h-11 shrink-0 grow-0 rounded-full border-2 border-black py-2 items-center flex justify-center'>
       <Image height={24} width={24} src={playstore} alt='playstore'/>
       </div>
-      <div className='w-11 h-11 shrink-0 grow-0 rounded-full bg-gray-300 py-2 items-center flex justify-center'>
+      <div className='w-11 h-11 shrink-0 grow-0 rounded-full border-2 border-black py-2 items-center flex justify-center'>
       <Image height={24} width={24}  src={apple} alt='apple'/>
       </div>
       </section>
