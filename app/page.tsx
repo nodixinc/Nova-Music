@@ -29,7 +29,7 @@ export default function Home() {
       <Image className={styles.im} src={hd} alt='yo'/>
       <section className='grid grid-cols-2 gap-6'>
       <button className={styles.btn} >
-      <Link className={styles.btns} href='#'>Join the hub</Link>
+      <Link className={styles.btns} href='/home'>Join the hub</Link>
       </button> 
       <section className='grid grid-cols-2 gap-0 py-1 '>
         <div className='w-11 h-11 shrink-0 grow-0 rounded-full border-2 border-black py-2 items-center flex justify-center'>
